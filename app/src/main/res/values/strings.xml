@@ -1,0 +1,61 @@
+<resources>
+    <string name="app_name">NitroLab</string>
+
+    <!-- This for Splash activity -->
+    <string name="Splash_Text">By MOHAMED ABAZA &amp; ABDULLAH SAMIR</string>
+
+    <!-- This for AcademicYear activity -->
+    <string name="firstYear">first Year</string>
+    <string name="secondYear">second Year</string>
+    <string name="thirdYear">third Year</string>
+    <string name="fourthYear">fourth Year</string>
+    <string name="aboutUs">About Us</string>
+    <string name="NoInternet">NO INTERNET! PLEASE CHECK YOUR CONNECTION AND TOUCH HERE TO RETRY</string>
+    <string name="first_term">First Term</string>
+    <string name="second_term">Second Term</string>
+
+    <!-- This for ThirdYear activity -->
+    <string name="FirstExperiment">Band Pass Filter</string>
+    <string name="exp_pdf">Exp. PDF</string>
+    <string name="exp_video">Exp. Video</string>
+    <string name="exp_Lab">Exp. Lab</string>
+
+    <!-- This for Experiment and ExperimentTable activity -->
+    <string name="VoltResult">Get Voltage</string>
+    <string name="nextPage">Next</string>
+    <string name="OutputVoltage">Output Voltage</string>
+    <string name="Voltage">Voltage</string>
+    <string name="Frequency">Frequency(Hz)</string>
+    <string name="LogFreq">Log(Hz)</string>
+    <string name="Gain">Gain</string>
+    <string name="Zero_hint">0</string>
+    <string name="DotZero_hint">0.0</string>
+    <string name="Hit_Text">Use This Value For Hz :</string>
+    <string name="Result">Result</string>
+
+    <!-- This for AboutUS activity -->
+    <string name="instgram_account">- Instgram Account</string>
+    <string name="facebook_account">- Facebook Account</string>
+    <string name="abaza_career">- Android Developer</string>
+    <string name="abaza_name">- Mohamed Abaza</string>
+    <string name="abdullah_career">- Physicist</string>
+    <string name="abdullah_name">- Abdullah Samir</string>
+    <string name="abaza_gmail">- Email:
+        abaza.jobs@Gmail.com</string>
+    <string name="Abdullah_whatsapp">- WhatsApp: 01092629610</string>
+
+    <!-- This for SupportUs activity -->
+    <string name="support_us">Support Us</string>
+    <string name="why_we_need_support">Why we need Support ?</string>
+
+    <string name="supportWays">Money Help us to keep going and develop the app by buying a faster server and
+    now you can support us by watching a short Video Ad:</string>
+
+    <string name="watchAdVideoText">- The First one by watching a short Ad :</string>
+    <string name="watchAdVideoBtn">Click to watch short video ad</string>
+
+
+    <string name="available_soon">Available Soon</string>
+
+
+</resources>

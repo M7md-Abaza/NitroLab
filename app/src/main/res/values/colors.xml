@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#008577</color>
+    <color name="colorPrimaryDark">#A3A3D8</color>
+    <color name="colorAccent">#D81B60</color>
+    <color name="background">#DFDFE6</color>
+    <color name="cardViewBackground">#9898D3</color>
+    <color name="statucolor">#9898D3</color>
+    <color name="slectedcolor">#ACACDD</color>
+    <color name="white">#ffffff</color>
+    <color name="whsdite">#ffffff</color>
+<!--
+C5EEFF
+-->
+</resources>
