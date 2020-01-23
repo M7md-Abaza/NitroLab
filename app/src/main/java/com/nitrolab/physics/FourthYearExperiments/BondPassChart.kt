@@ -427,8 +427,7 @@ class BondPassChart : AppCompatActivity() {
                     entries.add(Entry(x, y))
                 }
                 else -> {
-                    Toast.makeText(this@BondPassChart, "القيمة غير صحيحة", Toast.LENGTH_LONG)
-                        .show()
+                    Toast.makeText(this@BondPassChart, "القيمة غير صحيحة", Toast.LENGTH_LONG).show()
                     dateModels.reverse()
                 }
             }

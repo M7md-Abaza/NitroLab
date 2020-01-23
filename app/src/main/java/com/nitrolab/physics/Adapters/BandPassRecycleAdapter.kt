@@ -16,8 +16,7 @@ class BandPassRecycleAdapter(private var dateModels: ArrayList<BandPassRecycleMo
 
 
     override fun onCreateViewHolder(parent: ViewGroup, viewType: Int): MyHolder {
-        val view: View =
-            LayoutInflater.from(parent.context).inflate(R.layout.item_row, parent, false)
+        val view: View = LayoutInflater.from(parent.context).inflate(R.layout.bond_pass_item, parent, false)
         return MyHolder(view)
     }
 

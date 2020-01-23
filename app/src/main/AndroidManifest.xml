@@ -14,41 +14,49 @@
         android:supportsRtl="true"
         android:theme="@style/AppTheme"
         tools:ignore="AllowBackup,GoogleAppIndexingWarning">
+        <activity android:name=".ThirdYearExperiments.SolarCellThird"
+            tools:ignore="InnerclassSeparator">
+
+        </activity>
+        <activity android:name=".ThirdYearExperiments.TransistorPart2"
+            tools:ignore="InnerclassSeparator" />
+        <activity
+            android:name=".ThirdYearExperiments.NTC2"
+            tools:ignore="InnerclassSeparator" />
+        <activity
+            android:name=".ThirdYearExperiments.NTC1"
+            tools:ignore="InnerclassSeparator" />
 
         <meta-data
             android:name="com.google.android.gms.ads.APPLICATION_ID"
             android:value="ca-app-pub-4454440016331822~8314941238" />
-
         <meta-data
             android:name="android.support.PARENT_ACTIVITY"
             android:value="com.nitrolab.physics.Activities.MainActivity" />
 
         <activity
-            android:name="com.nitrolab.physics.FourthYearExperiments.BondPassChart"
+            android:name=".FourthYearExperiments.BondPassChart"
             tools:ignore="InnerclassSeparator" />
         <activity
-            android:name="com.nitrolab.physics.FourthYearExperiments.BondPassExperimentHz"
-            tools:ignore="InnerclassSeparator" />
-
-        <activity
-            android:name="com.nitrolab.physics.Extras.AboutUs"
+            android:name=".FourthYearExperiments.BondPassExperimentHz"
             tools:ignore="InnerclassSeparator" />
         <activity
-            android:name="com.nitrolab.physics.Extras.SupportUs"
-            tools:ignore="InnerclassSeparator" />
-
-        <activity
-            android:name="com.nitrolab.physics.Activities.MainActivity"
+            android:name=".Extras.AboutUs"
             tools:ignore="InnerclassSeparator" />
         <activity
-            android:name="com.nitrolab.physics.Activities.Splash"
+            android:name=".Extras.SupportUs"
+            tools:ignore="InnerclassSeparator" />
+        <activity
+            android:name=".Activities.MainActivity"
+            tools:ignore="InnerclassSeparator" />
+        <activity
+            android:name=".Activities.Splash"
             tools:ignore="InnerclassSeparator">
-
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
+
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
-
         </activity>
     </application>
 

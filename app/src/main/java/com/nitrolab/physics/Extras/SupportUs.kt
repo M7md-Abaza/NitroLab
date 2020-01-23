@@ -24,7 +24,7 @@ class SupportUs : AppCompatActivity() {
     private fun interstitialAd() {
 
         mPublisherInterstitialAd = PublisherInterstitialAd(this)
-        mPublisherInterstitialAd.adUnitId = "/6499/example/interstitial"
+        mPublisherInterstitialAd.adUnitId = "ca-app-pub-4454440016331822/3579088489"
         //ca-app-pub-4454440016331822/3579088489
         mPublisherInterstitialAd.loadAd(PublisherAdRequest.Builder().build())
 
@@ -79,7 +79,7 @@ class SupportUs : AppCompatActivity() {
         adView.loadAd(adRequest)
         val adView = AdView(this)
         adView.adSize = AdSize.SMART_BANNER
-        adView.adUnitId = "ca-app-pub-3940256099942544/6300978111"
+        adView.adUnitId = "ca-app-pub-4454440016331822/2673200924"
 
         // for test: ca-app-pub-3940256099942544/6300978111
     }

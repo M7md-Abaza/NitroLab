@@ -1,4 +1,4 @@
-<resources>
+<resources xmlns:tools="http://schemas.android.com/tools">
     <string name="app_name">Nitro Lab</string>
 
     <!-- This for Splash activity -->
@@ -16,9 +16,10 @@
 
     <!-- This for ThirdYear activity -->
     <string name="FirstExperiment">Band Pass Filter</string>
-    <string name="exp_pdf">Exp. PDF</string>
-    <string name="exp_video">Exp. Video</string>
-    <string name="exp_Lab">Exp. Lab</string>
+    <string name="ExperimentTitle">Experiment Title</string>
+    <string name="exp_pdf">PDF</string>
+    <string name="exp_video">Video</string>
+    <string name="exp_Lab">Lab</string>
 
     <!-- This for Experiment and ExperimentTable activity -->
     <string name="VoltResult">Get Voltage</string>
@@ -56,6 +57,16 @@
 
 
     <string name="available_soon">Available Soon</string>
+    <string name="t_celsius" tools:ignore="TypographyOther">Temp.(c)</string>
+    <string name="t_kelvin">Temp.(k)</string>
+    <string name="reverseKelvin">1 /T(k)</string>
+    <string name="resistance">Resistance</string>
+    <string name="ln_r">Ln(R)</string>
+    <string name="base_current">Base Current</string>
+    <string name="collector_current">Collector Current</string>
+    <string name="add_result">Add Result</string>
+    <string name="distance_d">Distance(d)</string>
+    <string name="current_i">Current(I)</string>
 
 
 </resources>

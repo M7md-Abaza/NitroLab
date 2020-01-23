@@ -25,7 +25,7 @@ class MainActivity : AppCompatActivity()  {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_main)
 
-        ifInternetAvailable()
+        //ifInternetAvailable()
         handelToolbar()
         handelTableLayout()
 
@@ -63,17 +63,17 @@ class MainActivity : AppCompatActivity()  {
         supportActionBar!!.setDisplayHomeAsUpEnabled(false)
         supportActionBar!!.setDisplayShowHomeEnabled(false)
 
-
+        // المفروض السطرين دول يتنقلو مع handelTableLayout()
         val adapter = FragmentsAdapter(supportFragmentManager)
         viewPager.adapter = adapter
 
     }
 
     private fun handelTableLayout() {
-        tabLayout.addTab(tabLayout.newTab().setText("First Year"))
-        tabLayout.addTab(tabLayout.newTab().setText("Second Year"))
-        tabLayout.addTab(tabLayout.newTab().setText("Third Year"))
-        tabLayout.addTab(tabLayout.newTab().setText("Fourth Year"))
+        tabLayout.addTab(tabLayout.newTab().setText("1st Year"))
+        tabLayout.addTab(tabLayout.newTab().setText("2nd Year"))
+        tabLayout.addTab(tabLayout.newTab().setText("3rd Year"))
+        tabLayout.addTab(tabLayout.newTab().setText("4th Year"))
 
         tabLayout.setTabTextColors(Color.parseColor("#ffffff"), Color.parseColor("#D81B60"))
 

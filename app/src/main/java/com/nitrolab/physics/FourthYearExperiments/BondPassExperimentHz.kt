@@ -31,7 +31,7 @@ class BondPassExperimentHz : AppCompatActivity() {
         adView.loadAd(adRequest)
         val adView = AdView(this)
         adView.adSize = AdSize.SMART_BANNER
-        adView.adUnitId = "ca-app-pub-3940256099942544/6300978111"
+        adView.adUnitId = "ca-app-pub-4454440016331822/2911405460"
         // for test: ca-app-pub-3940256099942544/6300978111
     }
 
@@ -274,20 +274,81 @@ class BondPassExperimentHz : AppCompatActivity() {
                             48000 -> volt.text = "0.0075"
                             49000 -> volt.text = "0.0072"
                             50000 -> volt.text = "0.0069"
-                            else -> Toast.makeText(
-                                this@BondPassExperimentHz,
-                                "Invalid Number ",
-                                Toast.LENGTH_LONG
-                            ).show()
+                            51000 -> volt.text = "0.0066"
+                            52000 -> volt.text = "0.0066"
+                            53000 -> volt.text = "0.0063"
+                            54000 -> volt.text = "0.006"
+                            55000 -> volt.text = "0.0057"
+                            56000 -> volt.text = "0.00558"
+                            57000 -> volt.text = "0.0054"
+                            58000 -> volt.text = "0.0051"
+                            59000 -> volt.text = "0.0045"
+                            60000 -> volt.text = "0.00438"
+                            61000 -> volt.text = "0.0042"
+                            62000 -> volt.text = "0.0042"
+                            63000 -> volt.text = "0.00408"
+                            64000 -> volt.text = "0.0039"
+                            65000 -> volt.text = "0.0036"
+                            66000 -> volt.text = "0.0033"
+                            67000 -> volt.text = "0.00318"
+                            68000 -> volt.text = "0.003"
+                            69000 -> volt.text = "0.0029"
+                            70000 -> volt.text = "0.0028"
+                            71000 -> volt.text = "0.0027"
+                            72000 -> volt.text = "0.00258"
+                            73000 -> volt.text = "0.00246"
+                            74000 -> volt.text = "0.0024"
+                            75000 -> volt.text = "0.00234"
+                            76000 -> volt.text = "0.0021"
+                            77000 -> volt.text = "0.00198"
+                            78000 -> volt.text = "0.0018"
+                            79000 -> volt.text = "0.0017"
+                            80000 -> volt.text = "0.00169"
+                            81000 -> volt.text = "0.00168"
+                            82000 -> volt.text = "0.0015"
+                            83000 -> volt.text = "0.00138"
+                            84000 -> volt.text = "0.0012"
+                            85000 -> volt.text = "0.00114"
+                            86000 -> volt.text = "0.00108"
+                            87000 -> volt.text = "0.0009"
+                            88000 -> volt.text = "0.00084"
+                            89000 -> volt.text = "0.0078"
+                            90000 -> volt.text = "0.00072"
+                            91000 -> volt.text = "0.00066"
+                            92000 -> volt.text = "0.0006"
+                            93000 -> volt.text = "0.00054"
+                            94000 -> volt.text = "0.00048"
+                            95000 -> volt.text = "0.00042"
+                            96000 -> volt.text = "0.0003"
+                            97000 -> volt.text = "0.00018"
+                            98000 -> volt.text = "0.00012"
+                            99000 -> volt.text = "0.00006"
+                            100000 -> volt.text = "0"
+
+                            else -> {
+                                Toast.makeText(
+                                    this@BondPassExperimentHz,
+                                    "Invalid Number ",
+                                    Toast.LENGTH_LONG
+                                ).show()
+                                volt.text = "Invalid Number"
+                            }
                         }
                     }
                     in 1..10 -> {
                         volt.text = "0"
                     }
                     else -> {
-                        Toast.makeText(this@BondPassExperimentHz, "Invalid Number", Toast.LENGTH_LONG).show()
+                        Toast.makeText(
+                            this@BondPassExperimentHz,
+                            "Invalid Number",
+                            Toast.LENGTH_LONG
+
+                        ).show()
+                        volt.text = "Invalid Number"
                     }
                 }
+
             }
 
             override fun afterTextChanged(s: Editable) {}
@@ -295,7 +356,7 @@ class BondPassExperimentHz : AppCompatActivity() {
     }
 
     private fun nextPageMethod() {
-        btn_nextPage.setOnClickListener{
+        btn_nextPage.setOnClickListener {
             val intent = Intent(this@BondPassExperimentHz, BondPassChart::class.java)
             startActivity(intent)
         }
